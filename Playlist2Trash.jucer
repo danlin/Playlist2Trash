@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="AAYDCS" name="Playlist2Trash" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="de.danlin.Playlist2Trash" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="PpqqVX" name="Playlist2Trash">
+    <FILE id="xVgA9I" name="playlist2trash.png" compile="0" resource="1"
+          file="playlist2trash.png"/>
+    <GROUP id="{C1885658-806C-494C-4815-60DB2CA0E16F}" name="Source">
+      <FILE id="rUeW3Z" name="TrashThread.cpp" compile="1" resource="0" file="Source/TrashThread.cpp"/>
+      <FILE id="gwS8WK" name="TrashThread.h" compile="0" resource="0" file="Source/TrashThread.h"/>
+      <FILE id="zKZqsk" name="MainContentComponent.cpp" compile="1" resource="0"
+            file="Source/MainContentComponent.cpp"/>
+      <FILE id="Sz8B6S" name="MainContentComponent.h" compile="0" resource="0"
+            file="Source/MainContentComponent.h"/>
+      <FILE id="bwEaQ7" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" bigIcon="xVgA9I">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="Playlist2Trash"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="Playlist2Trash"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="Submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="Submodules/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
